@@ -1,0 +1,59 @@
+body {
+background: #b7c2ce;
+font-size: 13pt;
+	font-family: "Times New Roman";
+	
+}
+
+.column-head {
+	font-family:"Courier New";
+	font-size: 24pt;
+	text-align: center;
+}
+
+.center-col {
+	background-color: #e1e8ef;
+	width: 33.33%;
+	height: 94%;
+	float: left;
+	
+}
+
+.left-col {
+	background-color: #ebeef3;
+	width: 33.33%;
+	height: 94%;
+	float: left;
+	
+}
+.right-col {
+	background-color: #ebeef3;
+	width: 33.33%;
+	height: 94%;
+	float: right;
+	
+}
+.footer {
+	height: 3%;
+	bottom:0;
+}
+.header-title {
+	font-family:"Courier New";
+	font-size: 24pt;
+	text-align: center;
+	height: 5%;
+	top:0;
+}
+.align-img{
+    float:left;
+}
+
+p {
+	font-size: 14pt;
+	font-family: "Times New Roman";
+	padding: 3px;
+}
+d {
+	font-size: 10pt;
+	font-family: "Times New Roman";
+}
