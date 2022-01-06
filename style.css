@@ -107,8 +107,12 @@ ul.navbar>li:hover {
 
 ul.subnav {
     padding-left: 80;
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-right: 10;
 }
 
 ul.subnav>li {
     font-size: 14;
+    padding: 10;
 }
