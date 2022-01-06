@@ -64,19 +64,29 @@ d {
     font-size: 10pt;
     font-family: "Times New Roman";
 }
-
+/*
+Center the data in the div with a header class.
+Slightly more elegant approach than using the <center> tag
+*/
 div.header {
     margin: auto;
     width: auto;
     text-align: center;
 }
 
+/* 
+All H1 elements with a class of header 
+This makes the header data centred.   
+*/
 h1.header {
     margin: auto;
     width: auto;
 
 }
-
+/*
+Change the behaviour of the unordered list with a navbar class
+setting the list-style-type to none removes the dots for new li elements
+*/
 ul.navbar {
     list-style-type: none;
     margin: 0;
@@ -84,27 +94,37 @@ ul.navbar {
     background-color: black;
 }
 
+/* All li elements with ul parents with a navbar class*/
 ul.navbar>li {
     padding: 20;
     display: inline;
     
 }
 
+/* Only the main navbar gets the active class.  This is because the
+   sub navbar takes you to a link within the same page while the main
+   navbar should show you which page you are on */
 ul.navbar>li.active {
     background-color: lightblue;
     
 }
 
+/* remove the default hyperlink formatting from the text */
 ul.navbar>li>a {
     text-decoration: none;
     color: white;
 }
 
+/* Hover attribute to change he color of the li element when the mouse hovers over it
+*/
 ul.navbar>li:hover {
     background-color: darkblue;
     
 }
 
+/* for the sub navbar, indent it a bit more than the main navbar
+   Also make the whole thing a bit smaller to indicate that its
+   subordinate to the main navbar */
 ul.subnav {
     padding-left: 80;
     padding-top: 10;
