@@ -85,7 +85,6 @@ ul.navbar {
 }
 
 ul.navbar>li {
-    color: red;
     padding: 20;
     display: inline;
     
@@ -104,4 +103,12 @@ ul.navbar>li>a {
 ul.navbar>li:hover {
     background-color: darkblue;
     
+}
+
+ul.subnav {
+    padding-left: 80;
+}
+
+ul.subnav>li {
+    font-size: 14;
 }
