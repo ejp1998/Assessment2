@@ -136,3 +136,30 @@ ul.subnav>li {
     font-size: 14;
     padding: 10;
 }
+
+div.maincontent {
+    margin: auto;
+    
+}
+
+div.member_block {
+    text-align: center;
+    max-width: 250px;
+    background-color: azure;
+    margin: 40;
+    padding: 7;
+    box-shadow: 3px 3px 3px 3px;
+    float: left;
+}
+
+img.profilepic {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+
+span.member_bio {
+    display: block
+}
+
