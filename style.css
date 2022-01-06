@@ -150,6 +150,7 @@ div.member_block {
     padding: 7;
     box-shadow: 3px 3px 3px 3px;
     float: left;
+    border-radius: 10px;
 }
 
 img.profilepic {
