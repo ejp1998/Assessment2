@@ -153,11 +153,17 @@ div.member_block {
     border-radius: 10px;
 }
 
+/*
+Set arbitrary figures for height and width of the pics
+*/
 img.profilepic {
+    
     display: block;
     margin: auto;
+    max-width: 240px;
+    height: 240px;
     border-radius: 50%;
-    
+    overflow: hidden;
 }
 
 span.member_bio {
