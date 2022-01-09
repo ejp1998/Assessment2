@@ -234,6 +234,10 @@ div.team_profile {
     padding: 10;
     
 }
+
+span.member_name {
+    font-weight: bold;
+}
 /*
 This clearing style is to allow a div to surround floating members
 */
