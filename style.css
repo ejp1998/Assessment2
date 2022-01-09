@@ -55,6 +55,14 @@ body {
 }
 
 
+<<<<<<< HEAD
+=======
+d {
+    font-size: 10pt;
+    font-family: "Times New Roman";
+}
+
+>>>>>>> about_page_styles
 /*
 Center the data in the div with a header class.
 Slightly more elegant approach than using the <center> tag
@@ -76,6 +84,7 @@ h1.header {
     width: auto;
 
 }
+
 /*
 Change the behaviour of the unordered list with a navbar class
 setting the list-style-type to none removes the dots for new li elements
@@ -88,31 +97,31 @@ ul.navbar {
 }
 
 /* All li elements with ul parents with a navbar class*/
-ul.navbar>li {
+ul.navbar > li {
     padding: 20;
     display: inline;
-    
+
 }
 
 /* Only the main navbar gets the active class.  This is because the
    sub navbar takes you to a link within the same page while the main
    navbar should show you which page you are on */
-ul.navbar>li.active {
+ul.navbar > li.active {
     background-color: lightblue;
-    
+
 }
 
 /* remove the default hyperlink formatting from the text */
-ul.navbar>li>a {
+ul.navbar > li > a {
     text-decoration: none;
     color: white;
 }
 
 /* Hover attribute to change he color of the li element when the mouse hovers over it
 */
-ul.navbar>li:hover {
+ul.navbar > li:hover {
     background-color: darkblue;
-    
+
 }
 
 /* for the sub navbar, indent it a bit more than the main navbar
@@ -125,11 +134,12 @@ ul.subnav {
     padding-right: 10;
 }
 
-ul.subnav>li {
+ul.subnav > li {
     font-size: 14;
     padding: 10;
 }
 
+<<<<<<< HEAD
 div.main_content_area {
     margin: auto;
     width: auto;
@@ -177,3 +187,60 @@ div.image_box_float_right {
     font-style: italic;
     border-bottom: 2px solid;
 }
+=======
+div.maincontent {
+    margin: auto;
+
+}
+
+div.member_block {
+    text-align: center;
+    max-width: 250px;
+    background-color: azure;
+    margin: 40;
+    padding: 7;
+    box-shadow: 3px 3px 3px 3px;
+    float: left;
+    border-radius: 10px;
+}
+
+/*
+Set arbitrary figures for height and width of the pics
+*/
+img.profilepic {
+
+    display: block;
+    margin: auto;
+    max-width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+span.member_bio {
+    display: block;
+}
+
+div.team_profile {
+    margin: 40;
+    border: 1px solid;
+    padding: 7;
+    box-shadow: 3px 3px 3px 3px;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+#individual_profiles {
+    margin: 10;
+    padding: 10;
+    
+}
+/*
+This clearing style is to allow a div to surround floating members
+*/
+.Clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+>>>>>>> about_page_styles
