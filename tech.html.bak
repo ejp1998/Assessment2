@@ -31,38 +31,16 @@
     <div class="main_content_area">
         <div id="vehicles" class="tech_content_card">
             <h1>Autonomous Vehicles</h1>
-			<p class="authorship">Written by Kyle Ross, Rory Henderson, Evan Phelps</p>
-            <h3>What are Autonomous Vehicles?</h3>
-            <p>Autonomous Vehicles are vehicles that have the capability to drive themselves with minimal to no human input. For many years, this technology has been thought of as a technology of the future, however, technological advancements in other fields such as Artificial Intelligence have brought the reality of Autonomous Vehicles closer to our present with each day. Currently, self-driving vehicles can be used by those that own specific cars, with the most popular being Teslas
+			<p class="authorship">Written by Kyle Ross,</p>
+            <h3>What does it do?</h3>
+            <p>Autonomous Vehicles
             </p>
-            <h4>What do Autonomous Vehicles do?</h4>
-            <p>Currently, Autonomous Vehicles have the ability to self-drive in cities such as Los Angeles, where development of this technology is based. Currently, human intervention is still something that must occur when operating these self-driving vehicles, as the technology is not yet developed enough to allow users to not pay attention while driving.
-            </p>
-            <h4>What is the future of this technology?</h4>
-            <p>In the future, the expected goal is to be able to perform other activities such as reading or sleeping while the car drives the passengers to the intended destination. If we are to look back to only five years ago, the difference in technology from then to now can suggest it likely that in five years from now, we could see even bigger advancements, with this goal of driving without the need to pay attention more so a matter of when will we be able to do so, rather than if we we will able to do so.
-            </p>
-            <h4>How will this affect those around us while in use?</h4>
-            <p>The positive attributes Autonomous Vehicles and self-driving cars can bring forward are plentiful, it is possible we could see less collisions and accidents on the road that which was caused by human error. But with that being said, the aspect of robotic error is something we must then consider, could these cars bring more problems and harm than they solve? Could glitches and malfunctions be something that instead causes more problems than it solves? Will we see more injuries of pedestrians? How exactly will this technology prioritise the health of those not in the car, will the car choose to save the passenger at the cost of another car/pedestrian? Only guesswork can be made when it comes to how new technologies will affect our world, even still, we believe more good will come than harm.
-            </p>
-            <h4>How will this affect current jobs and services?</h4>
-            <p>The development of Autonomous Vehicles will have the biggest impact upon services such as deliveries and ridesharing/taxi services. Once cars and trucks attain the ability to drive from one location to the next, I believe jobs such as truck drivers and taxi drivers will become obselete, instead replaced by these self-driving cars, companies likely won't need humans to operate and therefore many jobs may be lost. If Autonomous Vehicles are to become commonplace, it would seem likely to also disrupt the air-travel industry, with people more likely have their cars drive them long-distances while they sleep or do other activities, rather than spend the money to fly.
-            </p>
-            <h4>Integration and Adoption of the technology</h4>
-            <p>Whenever new technology is introduced, it is important to think of how people will be able to integrate it into their lives. Should this technology be slowly integrated onto our roads,
-            </p>
-            <h4>How will this affect us personally?</h4>
-            <p>Personally, I could see myself travelling further distances to visit attractions and places more than I currently do.
-            </p>
-            <h3>Final Thoughts</h3>
-            The idea of self-driving cars has been dreamed of for decades, for even in the twentieth century people would talk of the future involving self-driving cars, and now it seems this future is right at our doorstep, though how much longer until this becomes our reality remains unknown.
-
-
         </div>
         <div id="sff" class="tech_content_card">
             <h1>Raspberry Pi, Arduino, and Small Form Factor Computing</h1>
             <p class="authorship">Written by Gavin Jamieson and Rory Henderson</p>
             <h3>What does it do?</h3>
-            <p>While looking similar to a new observer, the Arduino Family and the Raspberry Pi are both very different devices. Arduino is a brand name that has become synonymous with microcontrollers much like Kleenex has become to tissue paper while the device that is most commonly thought of when discussing the Raspberry is in fact a fully featured computer. Both were developed as educational tools but have found uses with hobbyists and researchers and have even been deployed into production environments in a variety of operations.
+            <p>While looking similar to a new observer, the Arduino Family and the Raspberry Pi are both very different devies. Arduino is a brand name that has become synonymous with microcontrollers much like Kleenex has become to tissue paper while the device that is most commonly thought of when discussing the Raspberry is in fact a fully featured computer. Both were developed as educational tools but have found uses with hobbyists and researchers and have even been deployed into production environments in a variety of operations.
             </p>
             <p>We will explore the differences and similarities over the next few paragraphs and look at the differences in application for these and similar devices.
             </p>
