@@ -152,16 +152,17 @@ div.tech_content_card {
     width: 80%;
     box-shadow: 10px;
     border: 1px solid;
-  padding: 10px;
+    padding: 10px;
     padding-left: 3%;
     padding-right: 3%;
-  box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px #888888;
 }
 
-.tech_content_card>h1 {
+.tech_content_card > h1 {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
 div.image_box {
 
     border: 1px solid;
@@ -169,10 +170,9 @@ div.image_box {
     text-align: center;
     font-size: 9;
     font-style: italic
-
 }
 
-.image_box>p {
+.image_box > p {
     padding-top: 2px;
     margin-bottom: 0px;
     margin-top: 3px;
@@ -181,6 +181,7 @@ div.image_box {
 div.image_box_float_right {
     float: right;
 }
+
 .authorship {
     font-size: 10;
     font-style: italic;
@@ -238,6 +239,7 @@ div.team_profile {
 span.member_name {
     font-weight: bold;
 }
+
 /*
 This clearing style is to allow a div to surround floating members
 */
@@ -245,4 +247,12 @@ This clearing style is to allow a div to surround floating members
     clear: both;
     height: 0;
     overflow: hidden;
+}
+
+div.video_embed_center {
+    margin: 25;
+}
+
+div.video_embed_center>iframe {
+    margin: 0 auto;
 }
