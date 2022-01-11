@@ -256,3 +256,16 @@ div.video_embed_center {
 div.video_embed_center>iframe {
     margin: 0 auto;
 }
+
+div.ctr_table_div {
+    margin: auto;
+    width: auto;
+}
+
+div.ctr_table_div >table {
+      margin: auto;
+  width: 50%;
+  border: 3px solid;
+  padding: 10px;
+}
+
