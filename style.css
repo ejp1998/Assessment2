@@ -269,3 +269,8 @@ div.ctr_table_div >table {
   padding: 10px;
 }
 
+.draft_content {
+    background-color: yellowgreen;
+    color: red;
+    font-weight: bold;
+}
