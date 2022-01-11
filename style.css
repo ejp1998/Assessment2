@@ -71,12 +71,12 @@ div.header {
     width: auto;
     text-align: center;
     background-color: green;
-    
+
 }
 
-/* 
-All H1 elements with a class of header 
-This makes the header data centred.   
+/*
+All H1 elements with a class of header
+This makes the header data centred.
 */
 h1.header {
     margin: auto;
@@ -163,13 +163,13 @@ div.tech_content_card {
     margin-bottom: 0;
 }
 div.image_box {
-    
+
     border: 1px solid;
     padding: 4px;
     text-align: center;
     font-size: 9;
     font-style: italic
-    
+
 }
 
 .image_box>p {
@@ -232,7 +232,7 @@ div.team_profile {
 #individual_profiles {
     margin: 10;
     padding: 10;
-    
+
 }
 
 span.member_name {
@@ -246,4 +246,3 @@ This clearing style is to allow a div to surround floating members
     height: 0;
     overflow: hidden;
 }
-

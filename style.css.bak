@@ -16,7 +16,7 @@ font-size: 13pt;
 	width: 33.33%;
 	height: 94%;
 	float: left;
-	
+
 }
 
 .left-col {
@@ -24,14 +24,14 @@ font-size: 13pt;
 	width: 33.33%;
 	height: 94%;
 	float: left;
-	
+
 }
 .right-col {
 	background-color: #ebeef3;
 	width: 33.33%;
 	height: 94%;
 	float: right;
-	
+
 }
 .footer {
 	height: 3%;

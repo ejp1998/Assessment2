@@ -6,8 +6,8 @@
 
 <body>
     <div class="header">
-        <h1 class="header">Group 15 - Group Project</h1>
-        <p>(we need to choose a name)</p>
+      <h1 class="header">Sharper Tech - Group Project</h1>
+      <p>Andrew Schur, Evan Phelps, Gavin Jamieson, Rory Henderson, Kyle Ross</p>
     </div>
     <div class="navbar">
         <ul class="navbar">
