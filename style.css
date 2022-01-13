@@ -195,7 +195,8 @@ div.maincontent {
 
 div.member_block {
     text-align: center;
-    max-width: 250px;
+    max-width: 395px;
+    height: 800px;
     background-color: azure;
     margin: 40;
     padding: 7;
@@ -294,7 +295,7 @@ th {
 
 .mb_card {
     display: inline-block;
-    
+
 
 }
 
@@ -321,7 +322,7 @@ th {
 
 .learning_table > tbody > tr > th {
     border: 0;
-    
+
 }
 
 .learning_table > tbody > tr > td.rjust {
@@ -334,7 +335,7 @@ th {
 
 span.note {
     font-weight: bold;
-    
+
 }
 
 p.note {
@@ -349,4 +350,3 @@ p.note {
     box-shadow: 4px;
     background-color: white;
 }
-
