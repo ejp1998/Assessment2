@@ -292,8 +292,61 @@ th {
 
 }
 
-.mb_test_chart {
-    display: inline;
-    width: 50%;
-    height: 50%;
+.mb_card {
+    display: inline-block;
+    
+
 }
+
+#ol_learning_charts {
+    width: auto;
+    margin: auto;
+}
+
+.mb_card.inner_grouping {
+    border: 1px solid;
+    display: inline-block;
+}
+
+.mb_test_chart {
+    /*    border: 1px solid;*/
+    padding: 2px;
+    max-width: 280px;
+    max-height: 155px;
+}
+
+.learning_table {
+    margin: auto;
+}
+
+.learning_table > tbody > tr > th {
+    border: 0;
+    
+}
+
+.learning_table > tbody > tr > td.rjust {
+    text-align: right;
+}
+
+.learning_table > tbody > tr > td.ctr {
+    text-align: center;
+}
+
+span.note {
+    font-weight: bold;
+    
+}
+
+p.note {
+    width: 75%;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 4px;
+    background-color: white;
+}
+
