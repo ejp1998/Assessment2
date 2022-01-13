@@ -291,3 +291,9 @@ th {
     padding: 6px;
 
 }
+
+.mb_test_chart {
+    display: inline;
+    width: 50%;
+    height: 50%;
+}
