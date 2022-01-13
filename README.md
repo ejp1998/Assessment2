@@ -1,2 +1,2 @@
 Sharper Tech - Group Project
-Andrew Schur, Evan Phelps, Gavin Jamieson, Rory Henderson, Kyle Ross
+Andrew Suhr, Evan Phelps, Gavin Jamieson, Rory Henderson, Kyle Ross
