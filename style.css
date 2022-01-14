@@ -79,10 +79,16 @@ All H1 elements with a class of header
 This makes the header data centred.
 */
 h1.header {
+    padding-top: 20px;
     margin: auto;
     width: auto;
 
 }
+
+.header > p {
+    margin-bottom: 0px;
+    padding: 2px;
+} 
 
 /*
 Change the behaviour of the unordered list with a navbar class
@@ -295,7 +301,7 @@ th {
 
 .mb_card {
     display: inline-block;
-
+    
 
 }
 
@@ -307,6 +313,7 @@ th {
 .mb_card.inner_grouping {
     border: 1px solid;
     display: inline-block;
+    
 }
 
 .mb_test_chart {
@@ -338,10 +345,18 @@ span.note {
 
 }
 
+div.inner_grouping {
+    border: solid 1px;
+    margin-bottom: 5px;
+    width: 273px;
+    
+}
+
 p.note {
     width: 75%;
     padding: 5px;
     margin: auto;
+    margin-bottom: 15px;
     border: 2px solid;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -349,4 +364,9 @@ p.note {
     border-top-right-radius: 4px;
     box-shadow: 4px;
     background-color: white;
+}
+
+#individual_tests {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
