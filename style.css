@@ -179,13 +179,7 @@ div.image_box {
 }
 
 
-.image_box > img {
-    width: 100%;
-    max-width: 450px;
-    
-    
 
-}
 .image_box > p {
     padding-top: 2px;
     margin-bottom: 0px;
