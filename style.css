@@ -88,7 +88,7 @@ h1.header {
 .header > p {
     margin-bottom: 0px;
     padding: 2px;
-} 
+}
 
 /*
 Change the behaviour of the unordered list with a navbar class
@@ -301,7 +301,7 @@ th {
 
 .mb_card {
     display: inline-block;
-    
+
 
 }
 
@@ -313,7 +313,7 @@ th {
 .mb_card.inner_grouping {
     border: 1px solid;
     display: inline-block;
-    
+
 }
 
 .mb_test_chart {
@@ -349,7 +349,7 @@ div.inner_grouping {
     border: solid 1px;
     margin-bottom: 5px;
     width: 273px;
-    
+
 }
 
 p.note {
@@ -358,10 +358,8 @@ p.note {
     margin: auto;
     margin-bottom: 15px;
     border: 2px solid;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 4px;
-    border-top-right-radius: 4px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
     box-shadow: 4px;
     background-color: white;
 }
