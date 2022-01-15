@@ -170,7 +170,7 @@ div.tech_content_card {
 }
 
 div.image_box {
-
+    width: auto;
     border: 1px solid;
     padding: 4px;
     text-align: center;
@@ -178,10 +178,15 @@ div.image_box {
     font-style: italic
 }
 
+.image_box > img {
+    width: max-content;
+
+}
 .image_box > p {
     padding-top: 2px;
     margin-bottom: 0px;
     margin-top: 3px;
+    
 }
 
 div.image_box_float_right {
