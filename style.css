@@ -327,6 +327,10 @@ th {
     margin: auto;
 }
 
+.learning_table > thead > tr > th {
+    border: 0px;
+}
+
 .learning_table > tbody > tr > th {
     border: 0;
 
