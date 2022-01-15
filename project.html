@@ -34,10 +34,10 @@
         <p>Following consultation with fellow beer fans from the Sharper Tech Group, input form Tim Lo and other interested parties here are our considerations for additional features and future development strategies. </p>
       
         <H3>Owner comments and administration</H3>
-
         <p>Similar to google business’ layout the app will give bar owners the option to certify ownership of the bars name, provide a brief description comment and comment on app user reviews.</p>
         <p>A basic process of authentication will be necessary for the bar owner to prove their ownership that will grant them access to modify their bars page, sufficient documentation to prove their ownership such as an ABN registry letter or letter from their accountant. Once this is processed the owner is granted administration access to their business’ page giving them the ability to provide a brief 50-word description of the bars overall theme and vibe, style of music and entertainment, general audience description, any entry fee, trading hours, happy hour and any other special offers.
         Bar owners will receive notifications through the app (and possibly email) on interaction statistics e.g., positive/negative reviews, increase or decrease in their 5-star rating, how many app users are visiting their business, they can also choose to reply to user reviews of their bar and craft beer service.</p>
+            <p>While Pursuit of Hoppiness appears to be mostly consumer facing on the surface, the business facing side of the application can not be understated.  The technologies used in the application allow considerable analytics to be provided to businesses that sign up to access the data.  Analytics services could be provided or even access to integrate into their own systems using the REST API.</p>
 
         <H3>Linking external services</H3>
         <p>We would design the UI to intergrade links to external apps for navigation, bookings, and purchases to improve accessibility and provide a more user-friendly experience.</p>
@@ -46,7 +46,7 @@
         <li>Each bar that required bookings would have an external link on the bars page to OpenTable so the user could book a table.</li>
         <li>If any of the bars on the app were to brew their own craft beers or sell merchandise (t-shirts, stubbie holders, coasters etc.) then a link to their website could be provided through the bars profile.</li>
         </ul>
-
+            
         <H3>Ethical Considerations</H3>
         <p>The Pursuit of Hoppiness is constructed as a social and fun community review app, however the apps focus around the consumption of alcohol introduces two Ethical considerations when discussing the user base.</p>
         <h4>Age Limit</h4>
@@ -54,11 +54,39 @@
         <p>“All reasonable steps to verify” is vague however in in 2019 there was an Inquiry into age verification for online wagering and online pornography by the Australian Parliament which discussed multiple methods for online age verification. There where multiple suggestions for using existing government identification methods for this purpose including, existing government issued ID documents or the Trusted Digital Identity Framework, however these forms of identification also verify a user's identity which in our context is far more information than we need. There were also suggestions to use publicly available consumer information and databases, such as the Electoral Roll (which is something that Equifax said they do), which would only include individuals aged 18 and above, however again this introduces the issue of verifying a user's identity. Another solution presented was using a service such as <a href="https://yoti.world/age-scan/">Yoti Age Scan</a> which can identify a person's age by looking at their face in around 1 to 1 ½ seconds with an error rate of 0.31% when the threshold is set to 25 (Standing Committee on Social Policy and Legal Affairs, 2019). As there is currently no legal requirement to verify a user's age, these methods are currently not required.</p>
         <p>Asking for a user's Date of Birth also presents an issue as it classifies as Personally Identifiable Information and there have been cases of Apps being blocked from the Apple App Store for asking for this information (Age Restrictions on Apps | Apple Developer Forums, 2016).</p>
         <p>Despite there currently not being any legal requirement to do so having users verify their age seems to be best practice. With this information in mind, when creating a profile in our app users will be required to select yes or no to the prompt are you over 18. If the user selects no they will be directed to the <a href="https://drinkwise.org.au/under-18s/age-gate-restrictions/?fbclid=IwAR0DhxvJdUrtWdyPKh8Rjy7-tZ4ltIA-6RPk7VU791UjBMofgD37dUGuSr4#">DrinkWise Landing Page</a> which can direct underage users to more resources.</p>
-        <p>References</p>
+            <H2>Tools and Technology</H2>
+            <h3>Infrastructure</h3>
+            <p>Initially a proof of concept application would be self hosted.  Self hosting in the early phases offers a significant cost saving over using a cloud service(Website Planet, 2019). After the proof of concept and initial local area public releases, a migration to a cloud hosted environment will offer better reliability and provide for the service to be distributed with lower latency to various population centres.  With a planned migration to the cloud following succesful trials, development from the beginning must be cloud focused to reduce complexity during the cutover.</p>
+            <h3>Back end</h3>
+            <h4>Database</h4>
+            <p>A PostgreSQL database is the most likely selection for the database side of a backend.  PostgreSQL is free and open source, with a wide community backing. These two points alone make it a very good choice.  An alternative would be a MySQL database.  MySQL offers a lower barrier to entry in regards to skills an knowledge required for setup but as the application needs to scale up or even change direction, MySQL may not be able to provide the same in demand features of a PostgreSQL system.</p>
+            <h4>REST API</h4>
+            <p>A rest API will be the primary interface for the database with the rest of the world.  Using a Rest API will allow for backend to be completely separated from front end and allow the product to be platform agnostic.  This means that development for different platforms can take place concurrently and more rapidly as the human interfaces will not have to be developed individually to get the data requred.</p>
+            <h3>Front End</h3>
+            <p>As this is a largely consumer facing product, the interface with humans is a very important part.  Pursuit of Hoppiness is intended to be used on the go which makes mobile development a key area for development.  iOS holds a slightly higher market share amongst the Australian market(StatCounter Global Stats, 2019).  To reduce initial cost for development and to reach the largest segment of the market possible with a trial, iOS is the chosen platform for the initial mobile development.  Further research would have to be conducted to understand if the overall statistics for mobile OS market share translates to the products target demographic.</p>
+            <h2>Required Skills</h2>
+            <p>Over the lifespan of Pursuit of Hoppiness the required skills is anticipated to shift.  In the early phases of development the main technical skills can be grouped into two areas, front end and back end.</p>
+            <p>The front end area must possess the following technical skills</p>
+            <ul>
+                <li>iOS development</li>
+                <li>Rest API usage</li>
+                <li>Web development</li>
+            </ul>
+            <p>The back end area must possess the following technical skills</p>
+            <ul>
+                <li>Database development</li>
+                <li>Rest API development</li>
+                <li>Cloud configuration</li>
+            </ul>
+            <p>In addition to the technical skills it is important that all team members are able to work effectively in a team and can take responsibility for their own deliverables.</p>
+            <p>As the development progresses, the product will have to be marketed.  This is something that can be outsourced to a third party or alternatively conducted in house depending on budgets.</p>
+        <h2>References</h2>
         <p>Buckley, J., 2021. A new privacy code could compel social media platforms to take age verification seriously. [online] Business Insider Australia. Available at: <a href="https://www.businessinsider.com.au/online-privacy-code-australia">https://www.businessinsider.com.au/online-privacy-code-australia</a> [Accessed 10 January 2022]. </p>
         <p>Developer.apple.com. 2016. Age Restrictions on Apps | Apple Developer Forums. [online] Available at: <a href="https://developer.apple.com/forums/thread/20821">https://developer.apple.com/forums/thread/20821</a> [Accessed 10 January 2022]. </p>
         <p>Standing Committee on Social Policy and Legal Affairs, 2019. Inquiry into age verification for online wagering and online pornography. Canberra: Parliament of australia, p.Chaper 2. </p>
         <p>Thomson, J., 2017. The Surprising Truth About Why Alcohol Websites Make You Enter Your Age. [online] HuffPost. Available at: <a href="https://www.huffpost.com/entry/liquor-website-age-verification_n_59c3b549e4b06f93538cdd18/amp?fbclid=IwAR2n_Ua4ppJzEGM3jrviGFRadP4K-1er1EF2Z23NCM4tG2M7umgVz06eO1w">https://www.huffpost.com/entry/liquor-website-age-verification_n_59c3b549e4b06f93538cdd18/amp?fbclid=IwAR2n_Ua4ppJzEGM3jrviGFRadP4K-1er1EF2Z23NCM4tG2M7umgVz06eO1w</a>> [Accessed 10 January 2022]. </p>
+            <p>Website Planet. (2019). Cloud vs. VPS Hosting – Which Is Cheaper & More Secure? 2022. [online] Available at: https://www.websiteplanet.com/blog/cloud-hosting-vs-vps-hosting-right-choice/ [Accessed 15 Jan. 2022].</p>
+            <p>StatCounter Global Stats. (2019). Mobile Operating System Market Share Australia | StatCounter Global Stats. [online] Available at: https://gs.statcounter.com/os-market-share/mobile/australia.</p>
         <h4>Alcohol Consumption</h4>
     </div>
 </body>
