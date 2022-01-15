@@ -336,6 +336,12 @@ th {
 
 }
 
+.learning_table > tbody > tr.top {
+    border: 2px solid;
+    border-color: red;
+    border-radius: 10%;
+}
+
 .learning_table > tbody > tr > td.rjust {
     text-align: right;
 }
