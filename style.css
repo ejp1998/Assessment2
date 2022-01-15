@@ -175,11 +175,14 @@ div.image_box {
     padding: 4px;
     text-align: center;
     font-size: 9;
-    font-style: italic
+    font-style: italic;
 }
 
 .image_box > img {
-    width: max-content;
+    width: 100%;
+    max-width: 450px;
+    
+    
 
 }
 .image_box > p {
